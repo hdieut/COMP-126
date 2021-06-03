@@ -1,0 +1,27 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 1.5em;
+}
+
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+}
+
+.color1 {
+    background-color: gray;
+}
+
+.color2 {
+    background-color: aqua;
+}
+
+.green {
+    background-color: darkolivegreen;
+}

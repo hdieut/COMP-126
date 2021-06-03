@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(247, 161, 230);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 32pt;
+    font-family: "Blippo, fantasy";
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 18pt;
+    font-family: "Gill Sans, sans-serif";
+}
+
+p {
+    color: white;
+    font-size: 16pt;
+    font-family: "sans-serif";
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: fuchsia;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: lime;
+}
+
+main h2::first-line {
+    color: rgb(247, 78, 162);
+    font-size: 150%;
+}
+
+#myHeader {
+    background-color: aqua;
+    padding: 30px;
+}
+
+.products {
+    color: rgb(244, 189, 241);
+    text-shadow: -2px -2px white;
+}

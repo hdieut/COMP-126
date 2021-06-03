@@ -1,0 +1,109 @@
+body {
+    background-image: url("https://corporationchina.com/wp-content/uploads/2018/07/JD-PALLAS-Website-Partnerships-Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 10vh;
+    padding-bottom: 10%;
+}
+
+li.two {
+    align-self: flex-end;
+}
+
+li {
+    opacity: 0.5;
+    background-color: white;
+    height: 12%;
+    padding: 3%;
+    margin-right: 13vh;
+    box-sizing: border-box;
+    font-size: 2.3vw;
+    line-height: 175%;
+    border-radius: 10%;
+    border: solid black;
+}
+
+li a {
+    color: aqua;
+    font-weight: bold;
+}
+
+#textContainer {
+    display: flex;
+    height: 36vh;
+    justify-content: space-around;
+   
+}
+
+.text {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    width: 20vw;
+    height: 50%;
+    padding: 3vh;
+    font-size: 1.2vw;
+    margin: 5vh;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: purple;
+    border: 2px solid purple;
+    color: white;
+    text-align: center;
+    float: right;
+    
+}
+
+.dots a {
+    color: white;
+}
+
+@media only screen and (max-width: 479px) {
+    li {
+        height: 25%;
+        width: 30%;
+        margin-bottom: 3%;
+        padding-right: 5%;
+        margin-right: 8%;
+        font-size: 3em;
+    }
+
+    li.two {
+        align-self: flex-start;
+    }
+
+    ul {
+        flex-wrap: wrap;
+    }
+
+    #textContainer {
+        flex-direction: column;
+        margin: 3%;
+        align-content: center;
+    }
+
+    .text {
+        width: 70%;
+        height: 30%;
+        justify-content: center;
+        margin-left: 15vw;
+        font-size: 1.5vh;
+        border-radius: 2vw;
+        margin-bottom: 3vh;
+    }
+}

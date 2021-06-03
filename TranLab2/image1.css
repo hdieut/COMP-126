@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.background {
+    background-image:
+    url("https://cdn.wallpapersafari.com/0/51/pY57qk.jpg");
+    height: 100%;
+    padding-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: "Impact";
+    padding: 10px;
+    margin: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    font-family: "Courier New", monospace;
+    padding: 0;
+    margin: 25px;
+
+}
+
+p {
+    color: white;
+    font-size: 10px;
+    font-family: "Courier New", monospace;
+    padding: 5px;
+    margin: 5px;
+}

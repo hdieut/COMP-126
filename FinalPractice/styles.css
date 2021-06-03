@@ -1,0 +1,54 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container-fluid {
+    height: 10vh;
+    width: 100vw;
+}
+
+.container {
+    height: 70vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.color1 {
+    background-color: hotpink;
+}
+
+.color2 {
+    background-color: pink;
+}
+
+.col-lg-8 {
+    color: black;
+}
+
+.col {
+    height: 10vh;
+    width: 15vw;
+    color: white;
+}
+
+.middle-row, .main-row, .final-row {
+    height: 100vh;
+    width: 100vw;
+}
+
+aside {
+    height: 70vh;
+}
+
+.two {
+    height: 20vh;
+}
+
+.side, .footer {
+    height: 20vh;
+}

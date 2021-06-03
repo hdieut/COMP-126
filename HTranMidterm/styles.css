@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: Optima, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: red;
+    width: 100vw;
+    height: 20vh;
+}
+
+h1 {
+    color: black;
+    float: left;
+}
+
+#menubar {
+    background-color: bisque;
+    float: right;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    border: solid;
+    border-color: black;
+}
+
+#menubar li{
+    width: 10vw;
+    height: 5vh;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    color: black;
+    background-color: bisque;
+    border-radius: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+#menubar li:hover {
+    background-color: lightpink;
+}
+
+#menubar li a {
+    color: black;
+    text-decoration: none;
+}
+
+#menubar li ul {
+    display: none;
+}
+
+#menubar li:hover ul {
+    background-color: bisque;
+    display: block;
+    margin: 0;
+}
+
+#menubar li ul li {
+    background-color: bisque;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+#menubar li ul .dropdown {
+    background-color: bisque;
+    display: block;
+    width: 100%;
+}
+
+#menubar li ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#menubar li ul li:hover {
+    background-color: lightpink;
+}
+
+div{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+aside {
+    float: left;
+    background-color: lightpink;
+    width: 30vw;
+    height: 100vh;
+    display: block;
+}
+
+aside ul {
+    display: block;
+    padding: 15px;
+    padding-top: 35px;
+}
+
+button {
+    width: 20vw;
+    height: 10vh;
+    border-radius: 10px;
+    background-color: bisque;
+    padding-top: 25px;
+    position: relative;
+}
+button a {
+    font-size: 2em;
+}
+button:hover {
+    background-color: red;
+}
+.main {
+    color: bisque;
+    width: 70vw;
+    float: right;
+    height: 60vh;
+    position: relative;
+}
+
+footer {
+    height: 25vh;
+    background-color: red;
+    width: 100vw;
+    bottom: 0;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 600px) {
+div {
+    width: 100%;
+    display: inline-block;
+    height: 25vh;
+}
+
+}

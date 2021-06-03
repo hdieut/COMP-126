@@ -1,0 +1,41 @@
+* {
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: inline-block;
+}
+
+.box {
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+}
+
+#one {
+    background-color: aqua;
+    float: left;
+    order: 1;
+}
+
+#two {
+    background-color: grey;
+    order: 2;
+}
+
+#three {
+    background-color: purple;
+    order: 3;
+    float: left;
+}
+
+#four {
+    background-color: lightgreen;
+    order: 4;
+}

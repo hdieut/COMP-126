@@ -1,0 +1,137 @@
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-fluid {
+    height: 100vh; 
+    width: 100vw;
+}
+
+.container-fluid:first-child {
+    background-color: lightgrey;
+}
+
+.row:nth-child(1) {
+    padding: 20px;
+    width: 100vw;
+    background-color: lightgrey;
+}
+
+.row:nth-child(3) {
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    background-color: bisque;
+}
+
+#main-row {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar p {
+    display: none;
+}
+.col-lg-3 {
+    padding: 0px;
+    height: 5vh;
+}
+
+.card {
+    background-color: rgb(236, 227, 233);
+    height: 25vh;
+}
+
+.card-text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#nested-card {
+    background-color: bisque;
+}
+
+#nested-row {
+    padding: 0px;
+    width: 100vw;
+}
+
+.form-inline {
+    width: 270px;
+    height: 150px;
+}
+
+.form-control {
+    width: 40vw;
+}
+
+.form-inline.col-sm-3 {
+    margin-left: 5vw;
+    width: 40vw;
+    margin-bottom: 0px;
+}
+
+.btn-primary {
+    background-color: rgb(78, 23, 60);
+}
+
+.btn-primary:hover {
+    background-color: rgb(196, 176, 192);
+}
+
+.fas {
+    margin-right: 1vw;
+}
+
+.dropdown {
+    display: none;
+}
+
+@media only screen and (max-width: 959px) {
+    .nav {
+        display: none;
+    }
+
+    .navbar {
+        display: inline-block;
+        margin: 7px;
+        background-color: bisque;
+        width: 100%;
+    }
+
+    .row:nth-child(2) {
+        padding: 50px;
+    }
+
+    .card {
+        margin: 30px;
+    }
+
+    .col-lg-3 {
+        height: 17vh;
+    }
+
+    .navbar p {
+        display: block;
+        float: right;
+    }
+    .form-inline {
+        width: 270px;
+        height: 30px;
+
+    }
+
+    .col-lg-12 {
+        width: 100vw;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #nested-row {
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+        padding-right: 40px;
+    }
+}
